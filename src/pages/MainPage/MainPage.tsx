@@ -1,9 +1,14 @@
-import { Header } from '../../components/Header/Header';
+import { Outlet } from 'react-router-dom';
 
 export const MainPage = () => {
   return (
-    <div>
-      <h1>Main Page</h1>
+    <div className='wrapper'>
+      <header>
+        <div className='container'>Hello World</div>
+      </header>
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 };
