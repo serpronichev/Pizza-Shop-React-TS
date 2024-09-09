@@ -101,4 +101,18 @@
 body {
   font-family: 'Nunito-Regular', serif;
   font-weight: 400;
+  overflow: hidden;
+  background-color: var(--backgroundFirst-color);
+}
+
+.wrapper {
+  max-width: 1380px;
+  margin: 30px auto;
+  background-color: var(--backgroundSecond-color);
+  border-radius: 30px;
+}
+
+.container {
+  max-width: 1247px;
+  padding: 44px 66px 60px 67px;
 }
