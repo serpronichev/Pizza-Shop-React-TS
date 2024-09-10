@@ -16,6 +16,7 @@
   --descriptionText-color: #b1b1b1;
   --primary-color: #202020;
   --primary-active-color: #fe5f00;
+  --subtitle-color: #7b7b7b;
 }
 
 @font-face {
@@ -99,7 +100,7 @@
 }
 
 body {
-  font-family: 'Nunito-Regular', serif;
+  font-family: var(--nunito-regular), serif;
   font-weight: 400;
   overflow: hidden;
   background-color: var(--backgroundFirst-color);
