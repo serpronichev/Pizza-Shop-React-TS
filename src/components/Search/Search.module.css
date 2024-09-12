@@ -1,0 +1,21 @@
+.search {
+  height: 50px;
+  width: clamp(25rem, 20.614rem + 21.93vw, 47.75rem);
+  padding: 13px 44px 13px 48px;
+  border-radius: 15px;
+  background-color: var(--search-color);
+}
+
+.search::placeholder {
+  color: var(--search-placeholder);
+}
+
+.search-label {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+}

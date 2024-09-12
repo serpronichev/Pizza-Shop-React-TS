@@ -17,6 +17,8 @@
   --primary-color: #202020;
   --primary-active-color: #fe5f00;
   --subtitle-color: #7b7b7b;
+  --search-color: #f9f9f9;
+  --search-placeholder: #c0c0c0;
 }
 
 @font-face {
