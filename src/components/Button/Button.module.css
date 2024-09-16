@@ -2,7 +2,6 @@
   font-family: var(--first-semiBold), sans-serif;
   border: 1px solid var(--button-color);
   color: var(--button-color);
-  font-size: 15px;
   padding: 15px;
   max-height: 50px;
   border-radius: 16px;

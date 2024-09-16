@@ -8,8 +8,7 @@
   --first-semiBold: 'Nunito-SemiBold', sans-serif;
   --second-bold: 'ProximaNova-Bold', sans-serif;
   --second-extraBold: 'ProximaNova-ExtraBold', sans-serif;
-  --backgroundFirst-color: #ffbf9b;
-  --backgroundSecond-color: #ffffff;
+  --background-color: #ffffff;
   --background-sort-filter-color: #fafafa;
   --background-none-active: #f1f1f1;
   --border-color: #ededed;
@@ -105,20 +104,13 @@
 body {
   font-family: var(--first-regular), serif;
   font-weight: 400;
+  font-size: 16px;
   overflow: hidden;
-  background-color: var(--backgroundFirst-color);
-}
-
-.wrapper {
-  max-width: 1380px;
-  margin: 30px auto;
   background-color: var(--backgroundSecond-color);
-  border-radius: 30px;
   height: 100vh;
 }
 
 .container {
-  max-width: 1247px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 42px 0px;
 }

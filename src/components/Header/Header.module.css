@@ -3,6 +3,7 @@
 }
 
 .header-inner {
+  padding: 30px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,6 +18,7 @@
 .login-btn {
   font-family: var(--first-SemiBold), serif;
   padding: 13px 21px;
+  font-size: 16px;
   vertical-align: bottom;
 }
 
