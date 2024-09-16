@@ -1,21 +1,22 @@
 @import './reset.css';
 :root {
-  --nunito-regular: 'Nunito-Regular', sans-serif;
-  --nunito-black: 'Nunito-Black', sans-serif;
-  --nunito-extraBold: 'Nunito-ExtraBold', sans-serif;
-  --nunito-bold: 'Nunito-Bold', sans-serif;
-  --nunito-medium: 'Nunito-Medium', sans-serif;
-  --nunito-semiBold: 'Nunito-SemiBold', sans-serif;
-  --proximaNova-bold: 'ProximaNova-Bold', sans-serif;
-  --proximaNova-extraBold: 'ProximaNova-ExtraBold', sans-serif;
+  --first-regular: 'Nunito-Regular', sans-serif;
+  --first-black: 'Nunito-Black', sans-serif;
+  --first-extraBold: 'Nunito-ExtraBold', sans-serif;
+  --first-bold: 'Nunito-Bold', sans-serif;
+  --first-medium: 'Nunito-Medium', sans-serif;
+  --first-semiBold: 'Nunito-SemiBold', sans-serif;
+  --second-bold: 'ProximaNova-Bold', sans-serif;
+  --second-extraBold: 'ProximaNova-ExtraBold', sans-serif;
   --backgroundFirst-color: #ffbf9b;
   --backgroundSecond-color: #ffffff;
   --background-sort-filter-color: #fafafa;
   --background-none-active: #f1f1f1;
+  --border-color: #ededed;
   --text-color: #000000;
   --descriptionText-color: #b1b1b1;
   --primary-color: #202020;
-  --primary-active-color: #fe5f00;
+  --button-color: #fe5f00;
   --subtitle-color: #7b7b7b;
   --search-color: #f9f9f9;
   --search-placeholder: #c0c0c0;
@@ -102,7 +103,7 @@
 }
 
 body {
-  font-family: var(--nunito-regular), serif;
+  font-family: var(--first-regular), serif;
   font-weight: 400;
   overflow: hidden;
   background-color: var(--backgroundFirst-color);
@@ -113,9 +114,11 @@ body {
   margin: 30px auto;
   background-color: var(--backgroundSecond-color);
   border-radius: 30px;
+  height: 100vh;
 }
 
 .container {
   max-width: 1247px;
-  padding: 44px 66px 60px 67px;
+  margin: 0 auto;
+  padding: 42px 0px;
 }

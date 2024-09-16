@@ -1,1 +1,25 @@
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
 
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-btn {
+  font-family: var(--first-SemiBold), serif;
+  padding: 13px 21px;
+  vertical-align: bottom;
+}
+
+.login-btn img {
+  margin-right: 7px;
+}
