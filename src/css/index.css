@@ -113,5 +113,8 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 0 15px;
+=======
+>>>>>>> 2e2de99223106047c017629d25f315da7e1add37
 }
