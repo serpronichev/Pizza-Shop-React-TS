@@ -14,14 +14,3 @@
   align-items: center;
   gap: 15px;
 }
-
-.login-btn {
-  font-family: var(--first-SemiBold), serif;
-  padding: 13px 21px;
-  font-size: 16px;
-  vertical-align: bottom;
-}
-
-.login-btn img {
-  margin-right: 7px;
-}

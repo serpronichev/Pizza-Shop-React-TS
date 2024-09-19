@@ -1,10 +1,15 @@
-import { ButtonProps } from '../../types/Button.props';
-import cn from 'classnames';
 import styles from './Button.module.css';
+import React from 'react';
 
-export const Button = ({ children, className, ...props }: ButtonProps) => {
+type ButtonVariant = 'contained' | 'outlined-m' | 'outlined-s';
+interface ButtonProps extends React.ComponentProps<'button'> {
+  variant: ButtonVariant;
+  children: React.ReactNode;
+}
+
+export const Button = ({ children, variant, ...props }: ButtonProps) => {
   return (
-    <button className={cn(styles['button'], className)} {...props}>
+    <button className={styles[variant]} {...props}>
       {children}
     </button>
   );

@@ -1,9 +1,23 @@
-.button {
+button {
   font-family: var(--first-semiBold), sans-serif;
-  border: 1px solid var(--button-color);
+  height: 50px;
+  border-radius: 15px;
+  font-size: 15;
   color: var(--button-color);
+}
+
+.outlined-m {
+  vertical-align: bottom;
+  font-size: 16px;
+  padding: 13px 21px;
+  border: 1px solid var(--button-color);
+}
+
+.outlined-m img {
+  margin-right: 7px;
+}
+
+.outlined-s {
   padding: 15px;
-  max-height: 50px;
-  border-radius: 16px;
-  text-align: center;
+  border: 1px solid var(--button-color);
 }
