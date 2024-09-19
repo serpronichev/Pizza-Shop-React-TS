@@ -5,9 +5,7 @@ export const MainPage = () => {
   return (
     <>
       <Header />
-      <main>
-        <Outlet />
-      </main>
+      <main></main>
     </>
   );
 };

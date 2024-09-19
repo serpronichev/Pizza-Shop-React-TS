@@ -10,11 +10,11 @@ export const Header = () => {
           <Logo />
           <Search />
           <div className={styles['user-actions']}>
-            <Button className={styles['login-btn']}>
+            <Button variant='big' className={styles['login-btn']}>
               <img src='/icons/login.svg' alt='Вы' />
               Войти
             </Button>
-            <Button>
+            <Button variant='small'>
               <img src='/icons/cart.svg' alt='Корзина' />
             </Button>
           </div>
