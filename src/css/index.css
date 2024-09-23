@@ -108,7 +108,7 @@ body {
   font-size: 16px;
   overflow: hidden;
   background-color: var(--backgroundSecond-color);
-  height: 100vh;
+  min-height: 100vh;
   color: var(--text-color);
 }
 
