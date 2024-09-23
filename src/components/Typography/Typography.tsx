@@ -1,6 +1,11 @@
 import styles from './Typography.module.css';
 
-type TypographyVariant = 'title-logo' | 'sub-title-logo' | 'title';
+type TypographyVariant =
+  | 'title-logo'
+  | 'sub-title-logo'
+  | 'title'
+  | 'category-title'
+  | 'category-title-active';
 type TypographyTag = 'h1' | 'h2' | 'h3' | 'h4' | 'span' | 'p' | 'div';
 type TypographyProps<Tag extends TypographyTag> = React.ComponentProps<Tag> & {
   variant: TypographyVariant;

@@ -1,0 +1,19 @@
+.category-list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--background-sort-filter-color);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.category-item {
+  padding: 10px 20px;
+
+  &:active {
+    background-color: var(--background-color);
+    border-radius: 15px;
+    color: var(--button-color);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+  }
+}

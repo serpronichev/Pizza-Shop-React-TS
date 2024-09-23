@@ -14,3 +14,12 @@
 .sub-title-logo {
   color: var(--subtitle-color);
 }
+
+.category-title {
+  font-family: var(--first-medium);
+  text-align: center;
+}
+
+.category-title-active:active {
+  padding: 15px;
+}
