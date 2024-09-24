@@ -1,6 +1,7 @@
 import { Header } from '@/components/Header/Header';
 import { Typography } from '@/components/Typography/Typography';
 import { Category } from '@/components/Category/Category';
+import { Sort } from '@/components/Sort/Sort';
 import styles from './MainPage.module.css';
 
 export const MainPage = () => {
@@ -17,7 +18,7 @@ export const MainPage = () => {
             </div>
             <div className={styles['main-top__content']}>
               <Category />
-              <div>Sort</div>
+              <Sort />
             </div>
           </div>
         </div>
