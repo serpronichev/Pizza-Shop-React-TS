@@ -2,6 +2,7 @@ import { Header } from '@/components/Header/Header';
 import { Typography } from '@/components/Typography/Typography';
 import { Category } from '@/components/Category/Category';
 import { Sort } from '@/components/Sort/Sort';
+import { Filter } from '@/components/Filter/Filter';
 import styles from './MainPage.module.css';
 
 export const MainPage = () => {
@@ -9,21 +10,21 @@ export const MainPage = () => {
     <>
       <Header />
       <main className={styles['main']}>
-        <div className='main-top'>
-          <div className='container'>
-            <div className={styles['main-title']}>
-              <Typography variant='title' tag='h1'>
-                Все пиццы
-              </Typography>
-            </div>
-            <div className={styles['main-top__content']}>
-              <Category />
-              <Sort />
-            </div>
+        <div className='container'>
+          <div className={styles['main-title']}>
+            <Typography variant='title' tag='h1'>
+              Все пиццы
+            </Typography>
+          </div>
+          <div className={styles['category-sort']}>
+            <Category />
+            <Sort />
+          </div>
+          <div className={styles['main-content']}>
+            <Filter />
+            <div>Goods!!!</div>
           </div>
         </div>
-        <div className='aside'></div>
-        <div className='main-content'></div>
       </main>
     </>
   );

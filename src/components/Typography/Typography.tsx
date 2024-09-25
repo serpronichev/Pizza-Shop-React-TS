@@ -5,7 +5,8 @@ type TypographyVariant =
   | 'sub-title-logo'
   | 'title'
   | 'category-title'
-  | 'category-title-active';
+  | 'category-title-active'
+  | 'filter-title';
 type TypographyTag = 'h1' | 'h2' | 'h3' | 'h4' | 'span' | 'p' | 'div';
 type TypographyProps<Tag extends TypographyTag> = React.ComponentProps<Tag> & {
   variant: TypographyVariant;

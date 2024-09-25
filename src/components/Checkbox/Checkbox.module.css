@@ -1,0 +1,40 @@
+.checkbox-box {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 24px;
+  padding-left: 34px;
+  vertical-align: bottom;
+}
+
+.checkbox-wrapper p {
+  margin-top: 5px;
+}
+
+.checkbox-element {
+  appearance: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  background-color: var(--background-none-active);
+  border-radius: 8px;
+
+  &:checked {
+    background-color: var(--button-color);
+
+    &::before {
+      content: url(/icons/check.svg);
+      display: block;
+      position: absolute;
+      top: 3px;
+      left: 7px;
+    }
+  }
+}
